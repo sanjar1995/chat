@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-color: #1e78a5;
+	--secondary-color: #1abc9c;
+	--success-color: #04ea6f;
+	--error-color: #f04438;
+	--dark-night-color: #141414;
+	--dark-gunmental-color: #2b2f33;
+	--dark-charcoal-color: #3d444d;
+	--dark-onix-color: #3b4045;
+	--dark-eerie-black-color: #1c1e21;
+	--green-25-color: #59ff9640;
+	--green-20-color: #1abc9c33;
+	--red-25-color: #ff212140;
+	--red-20-color: #f0443833;
+	--gray-25-color: #ffffff40;
+	--gray-90-color: #ffffffe6;
+	--gray-75-color: #ffffffbf;
+	--gray-40-color: #ffffff66;
+	--gray-15-color: #ffffff26;
+}
+
+@layer utilities {
+	.container-custom {
+		max-width: 1260px;
+		width: 100%;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.text-32-ext {
+		font-size: 32px;
+		font-weight: 200;
+		line-height: 1.2;
+	}
+	.text-32-reg {
+		font-size: 32px;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+	.text-32-med {
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	.text-32-semi {
+		font-size: 32px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+	.text-32-bold {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+	.text-24-ext {
+		font-size: 24px;
+		font-weight: 200;
+		line-height: 1.15;
+	}
+	.text-24-reg {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 1.15;
+	}
+	.text-24-med {
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.15;
+	}
+	.text-24-semi {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 1.15;
+	}
+	.text-24-bold {
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 1.15;
+	}
+	.text-16-reg {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.1;
+	}
+	.text-16-ext {
+		font-size: 16px;
+		font-weight: 200;
+		line-height: 1.1;
+	}
+	.text-16-med {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.1;
+	}
+	.text-16-semi {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 1.1;
+	}
+	.text-16-bold {
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+	.text-14-ext {
+		font-size: 14px;
+		font-weight: 200;
+		line-height: 1.6;
+	}
+	.text-14-reg {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.6;
+	}
+	.text-14-med {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.6;
+	}
+	.text-14-semi {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 1.6;
+	}
+	.text-14-bold {
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 1.6;
+	}
+	.text-12-ext {
+		font-size: 12px;
+		font-weight: 200;
+		line-height: 1.2;
+	}
+	.text-12-reg {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+	.text-12-med {
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	.text-12-semi {
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+	.text-12-bold {
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+	.text-10-ext {
+		font-size: 10px;
+		font-weight: 200;
+		line-height: 1.2;
+	}
+	.text-10-reg {
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+	.text-10-med {
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	.text-10-semi {
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+	.text-10-bold {
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+	.text-8-ext {
+		font-size: 8px;
+		font-weight: 200;
+		line-height: 1.2;
+		letter-spacing: -4%;
+	}
+	.text-8-reg {
+		font-size: 8px;
+		font-weight: 400;
+		line-height: 1.2;
+		letter-spacing: -4%;
+	}
+	.text-8-med {
+		font-size: 8px;
+		font-weight: 400;
+		line-height: 1.2;
+		letter-spacing: -4%;
+	}
+	.text-7-reg {
+		font-size: 7px;
+		font-weight: 200;
+		line-height: 1.2;
+		letter-spacing: -2%;
+	}
+}
+
+body {
+	/* @apply bg-dark-eerie-black-color; */
+	font-family: 'Roboto Flex' !important;
+}
+.message-sent{
+	align-self: flex-end;
+	background: #1cbeeb;
+	text-align: right;
+}
